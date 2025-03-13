@@ -19,14 +19,13 @@ body {
   height: 100vh;
   background-color: var(--delft-blue);
   text-align: center;
-  
 }
 
 .landing-box h2 {
-color: whitesmoke;
-padding-top: 50px;;
-font-family: "Manrope", sans-serif;
-font-size: 50px;
+  color: whitesmoke;
+  padding-top: 50px;
+  font-family: "Manrope", sans-serif;
+  font-size: 50px;
 }
 .hero-box {
   display: flex;
@@ -61,4 +60,50 @@ font-size: 50px;
 .text {
   font-size: 25px;
   font-family: "Manrope", sans-serif;
+}
+
+.contact a {
+  text-align: center;
+  color: whitesmoke;
+  font-size: 20px;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 50px;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
+
+@media all and (max-device-width: 480px) {
+  .landing-box {
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+  }
+  .hero-box {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .left-col,
+  .right-col {
+    width: 100%;
+  }
+
+  .left-col img {
+    width: 100%;
+  }
+  .landing-box h2 {
+    font-size: 40px;
+  }
+
+  .title {
+    text-align: center;
+  }
+
+  .contact {
+    padding-top: 50px;
+  }
 }
