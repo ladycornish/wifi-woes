@@ -72,6 +72,7 @@ body {
 }
 
 .contact a:hover {
+  color: whitesmoke;
   text-decoration: underline;
 }
 
